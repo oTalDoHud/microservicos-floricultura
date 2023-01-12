@@ -1,4 +1,4 @@
-package br.com.cursoalura.microservice.loja.loja;
+package br.com.cursoalura.microservice.loja;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

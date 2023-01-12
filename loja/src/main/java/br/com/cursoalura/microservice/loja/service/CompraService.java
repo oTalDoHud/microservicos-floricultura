@@ -1,7 +1,7 @@
-package br.com.cursoalura.microservice.loja.loja.service;
+package br.com.cursoalura.microservice.loja.service;
 
-import br.com.cursoalura.microservice.loja.loja.model.dto.CompraDTO;
-import br.com.cursoalura.microservice.loja.loja.model.dto.InfoFornecedorDTO;
+import br.com.cursoalura.microservice.loja.model.dto.CompraDTO;
+import br.com.cursoalura.microservice.loja.model.dto.InfoFornecedorDTO;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestTemplate;

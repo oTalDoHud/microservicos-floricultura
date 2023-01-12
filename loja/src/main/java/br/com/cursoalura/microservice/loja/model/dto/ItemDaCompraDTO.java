@@ -1,4 +1,4 @@
-package br.com.cursoalura.microservice.loja.loja.model.dto;
+package br.com.cursoalura.microservice.loja.model.dto;
 
 public class ItemDaCompraDTO {
 

@@ -1,7 +1,7 @@
-package br.com.cursoalura.microservice.loja.loja.controller;
+package br.com.cursoalura.microservice.loja.controller;
 
-import br.com.cursoalura.microservice.loja.loja.model.dto.CompraDTO;
-import br.com.cursoalura.microservice.loja.loja.service.CompraService;
+import br.com.cursoalura.microservice.loja.model.dto.CompraDTO;
+import br.com.cursoalura.microservice.loja.service.CompraService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
