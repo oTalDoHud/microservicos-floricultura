@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(value = "compras")
+@RequestMapping(value = "/compras")
 public class CompraController {
 
     @Autowired
@@ -18,6 +18,5 @@ public class CompraController {
     @RequestMapping(method = RequestMethod.POST)
     public void realizaCompra(@RequestBody CompraDTO dto){
         compraService.realizarCompra(dto);
-
     }
 }
